@@ -4,7 +4,7 @@
 
 ## 1. Sitio del Estado: DANE
 - **URL:** https://www.dane.gov.co/
-- **Fecha/Hora:** 10/05/2026 - 10:30 PM
+- **Fecha/Hora:** 07/05/2026 - 10:30 AM
 - **Estado:** 200 OK
 - **TTFB:** 297 ms
 - **Tamaño total:** 2.8 MB
@@ -17,7 +17,7 @@
 
 ## 2. Sitio Universitario: FUMC
 - **URL:** https://www.fumc.edu.co/
-- **Fecha/Hora:** 10/05/2026 - 10:40 PM
+- **Fecha/Hora:** 8/05/2026 - 10:48 AM
 - **Estado:** 200 OK
 - **TTFB:** 3.69 s
 - **Tamaño total:** 1.5 MB
@@ -30,7 +30,7 @@
 
 ## 3. Sitio Comercial: Mercado Libre
 - **URL:** https://www.mercadolibre.com.co/
-- **Fecha/Hora:** 10/05/2026 - 10:50 PM
+- **Fecha/Hora:** 08/05/2026 - 10:55 AM
 - **Estado:** 200 OK
 - **TTFB:** 429 ms
 - **Tamaño total:** 493 kB
