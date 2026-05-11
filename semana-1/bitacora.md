@@ -1,6 +1,7 @@
 # Bitácora de inspección HTTP - Joao
 
-## 1. Sitio del Estado (https://www.dane.gov.co)
+
+- **Sitio del Estado** (https://www.dane.gov.co)
 - **Estado:** 200 OK
 - **TTFB:** - **Tamaño:** - **Certificado:** ## 2. Sitio Universitario (www.fumc.edu.co)
 - **Estado:** 200 OK
