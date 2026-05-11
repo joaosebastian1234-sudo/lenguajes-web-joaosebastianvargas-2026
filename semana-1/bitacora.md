@@ -4,7 +4,7 @@
 
 ## 1. Sitio del Estado: DANE
 - **URL:** https://www.dane.gov.co/
-- **Fecha/Hora:** 07/05/2026 - 10:30 AM
+- **Fecha/Hora:** 08/05/2026 - 10:30 AM
 - **Estado:** 200 OK
 - **TTFB:** 297 ms
 - **Tamaño total:** 2.8 MB
@@ -17,7 +17,7 @@
 
 ## 2. Sitio Universitario: FUMC
 - **URL:** https://www.fumc.edu.co/
-- **Fecha/Hora:** 8/05/2026 - 10:48 AM
+- **Fecha/Hora:** 08/05/2026 - 10:48 AM
 - **Estado:** 200 OK
 - **TTFB:** 3.69 s
 - **Tamaño total:** 1.5 MB
@@ -42,7 +42,7 @@ https://github.com/joaosebastian1234-sudo/lenguajes-web-joaosebastianvargas-2026
 
 ---
 
-## 6. Reflexión Final (Análisis comparativo)
+##  Reflexión Final
 
 Tras la observación empírica de los tres sitios, se concluye que **Mercado Libre** es el más eficiente en términos de carga inicial, con un tamaño transferido de apenas 493 kB a pesar de realizar 242 peticiones. Esto se debe a una excelente optimización de recursos (imágenes webp y scripts minificados) y un **TTFB** significativamente bajo comparado con los sitios institucionales.
 
