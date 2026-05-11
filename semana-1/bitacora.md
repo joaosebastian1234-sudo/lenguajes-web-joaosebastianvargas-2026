@@ -6,7 +6,7 @@
 - **URL:** https://www.dane.gov.co/
 - **Fecha/Hora:** 10/05/2026 - 10:30 PM
 - **Estado:** 200 OK
-- **TTFB:** [PONER AQUÍ] ms
+- **TTFB:** 297 ms
 - **Tamaño total:** 2.8 MB
 - **Total peticiones:** 190
 - **Redirecciones:** 301 observada (HTTP a HTTPS)
@@ -21,7 +21,7 @@
 - **URL:** https://www.fumc.edu.co/
 - **Fecha/Hora:** 10/05/2026 - 10:40 PM
 - **Estado:** 200 OK
-- **TTFB:** [PONER AQUÍ] ms
+- **TTFB:** 3.69 s
 - **Tamaño total:** 1.5 MB
 - **Total peticiones:** 207
 - **Redirecciones:** Ninguna observada
@@ -36,7 +36,7 @@
 - **URL:** https://www.mercadolibre.com.co/
 - **Fecha/Hora:** 10/05/2026 - 10:50 PM
 - **Estado:** 200 OK
-- **TTFB:** [PONER AQUÍ] ms
+- **TTFB:** 429 ms
 - **Tamaño total:** 493 kB
 - **Total peticiones:** 242
 - **Redirecciones:** 301
