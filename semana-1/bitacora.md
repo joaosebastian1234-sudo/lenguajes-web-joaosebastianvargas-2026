@@ -12,8 +12,6 @@
 - **Redirecciones:** 301 observada (HTTP a HTTPS)
 - **Certificado:** Sectigo Limited (Expira: 03/08/2026)
 
-![Red](capturas/sitio1-network.png)
-![TLS](capturas/sitio1-tls.png)
 
 ---
 
@@ -27,8 +25,6 @@
 - **Redirecciones:** Ninguna observada
 - **Certificado:** GlobalSign nv-sa (Expira: 07/11/2026)
 
-![Red](capturas/sitio2-network.png)
-![TLS](capturas/sitio2-tls.png)
 
 ---
 
@@ -42,8 +38,7 @@
 - **Redirecciones:** 301
 - **Certificado:** Amazon (Expira: 15/11/2026)
 
-![Red](capturas/sitio3-network.png)
-![TLS](capturas/sitio3-tls.png)
+
 
 ---
 
