@@ -1,44 +1,56 @@
 # Bitácora de inspección HTTP - Joao
 
-### Sitio 1: DANE
+# Bitácora de inspección HTTP - Joao Sebastian Vargas
+
+## 1. Sitio del Estado: DANE
 - **URL:** https://www.dane.gov.co/
-- **Observación:** 10/05/2026 - 10:30 PM
+- **Fecha/Hora:** 10/05/2026 - 10:30 PM
 - **Estado:** 200 OK
-- **TTFB:** [Pon aquí los ms]
-- **Tamaño total:** [Pon aquí los MB]
-- **Total peticiones:** [Pon aquí el número]
-- **Redirecciones:** [Ninguna o 301]
-- **Certificado:** Emitido por [Nombre] (Expira: [Fecha])
+- **TTFB:** [PONER AQUÍ] ms
+- **Tamaño total:** 2.8 MB
+- **Total peticiones:** 190
+- **Redirecciones:** 301 observada (HTTP a HTTPS)
+- **Certificado:** Sectigo Limited (Expira: 03/08/2026)
 
 ![Red](capturas/sitio1-network.png)
 ![TLS](capturas/sitio1-tls.png)
 
 ---
 
-### Sitio 2: FUMC
+## 2. Sitio Universitario: FUMC
 - **URL:** https://www.fumc.edu.co/
-- **Observación:** 10/05/2026 - 10:35 PM
+- **Fecha/Hora:** 10/05/2026 - 10:40 PM
 - **Estado:** 200 OK
-- **TTFB:** [Pon aquí los ms]
-- **Tamaño total:** [Pon aquí los MB]
-- **Total peticiones:** [Pon aquí el número]
-- **Redirecciones:** [Ninguna o 301]
-- **Certificado:** Emitido por [Nombre] (Expira: [Fecha])
+- **TTFB:** [PONER AQUÍ] ms
+- **Tamaño total:** 1.5 MB
+- **Total peticiones:** 207
+- **Redirecciones:** Ninguna observada
+- **Certificado:** GlobalSign nv-sa (Expira: 07/11/2026)
 
 ![Red](capturas/sitio2-network.png)
 ![TLS](capturas/sitio2-tls.png)
 
 ---
 
-### Sitio 3: Mercado Libre
+## 3. Sitio Comercial: Mercado Libre
 - **URL:** https://www.mercadolibre.com.co/
-- **Observación:** 10/05/2026 - 10:40 PM
+- **Fecha/Hora:** 10/05/2026 - 10:50 PM
 - **Estado:** 200 OK
-- **TTFB:** [Pon aquí los ms]
-- **Tamaño total:** [Pon aquí los MB]
-- **Total peticiones:** [Pon aquí el número]
-- **Redirecciones:** [Ninguna o 301]
-- **Certificado:** Emitido por [Nombre] (Expira: [Fecha])
+- **TTFB:** [PONER AQUÍ] ms
+- **Tamaño total:** 493 kB
+- **Total peticiones:** 242
+- **Redirecciones:** 301
+- **Certificado:** Amazon (Expira: 15/11/2026)
 
 ![Red](capturas/sitio3-network.png)
 ![TLS](capturas/sitio3-tls.png)
+
+---
+
+## 6. Reflexión Final (Análisis comparativo)
+
+Tras la observación empírica de los tres sitios, se concluye que **Mercado Libre** es el más eficiente en términos de carga inicial, con un tamaño transferido de apenas 493 kB a pesar de realizar 242 peticiones. Esto se debe a una excelente optimización de recursos (imágenes webp y scripts minificados) y un **TTFB** significativamente bajo comparado con los sitios institucionales.
+
+En cuanto a las **redirecciones**, tanto el DANE como Mercado Libre utilizan códigos **301** para forzar el uso de protocolos seguros, una práctica estándar de ciberseguridad. La FUMC mostró una carga directa, aunque con una cantidad elevada de peticiones (207) que elevan el tiempo final de renderizado a casi 8 segundos.
+
+Finalmente, los **certificados TLS** varían según la organización: el Estado usa Sectigo, la Universidad usa GlobalSign y el sitio comercial usa Amazon. Esta diversidad demuestra que cada entidad elige su autoridad certificadora según su infraestructura (por ejemplo, Mercado Libre usa la de su proveedor de nube). La comparativa cuantitativa deja claro que el sector comercial prioriza la velocidad de respuesta para mejorar la experiencia de usuario, mientras que los sitios estatales e institucionales manejan cargas de archivos más pesadas que afectan el rendimiento.
