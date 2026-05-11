@@ -38,7 +38,7 @@
 - **Redirecciones:** 301
 - **Certificado:** Amazon (Expira: 15/11/2026)
 
-
+https://github.com/joaosebastian1234-sudo/lenguajes-web-joaosebastianvargas-2026/blob/993b170000a89d642f139c35f3def791849a56d2/Mercado%20libre%20analisis.png
 
 ---
 
